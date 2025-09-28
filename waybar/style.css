@@ -70,7 +70,9 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-#clock,
+#clock {
+    background-color: transparent;
+}
 #battery,
 #cpu,
 #memory,
@@ -106,9 +108,7 @@ button:hover {
     margin-right: 0;
 }
 
-#clock {
-    background-color: #64727D;
-}
+
 
 #battery {
     background-color: #ffffff;
